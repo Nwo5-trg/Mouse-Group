@@ -1,0 +1,17 @@
+{
+	"geode": "4.9.0",
+	"gd": {
+		"win": "2.2074",
+		"mac": "2.2074"
+	},
+	"id": "nwo5.mouse-group",
+	"name": "Mouse Group",
+	"version": "v1.0.0",
+	"developer": "Nwo5",
+	"tags": ["utility", "offline"],
+	"description": "stuffs 4r lvl creators that isnt editmenu oml",
+	"links": {
+		"source": "https://github.com/Nwo5-trg/Mouse-Group",
+		"community": "https://discord.gg/AeFeYWGUxZ"
+	}
+}
