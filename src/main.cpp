@@ -62,8 +62,8 @@ class $modify(GJBaseGameLayerHook, GJBaseGameLayer) {
 
         const auto angle = m_gameState.m_cameraAngle / 0.01745328;
         const auto rotatedPos = ccp(
-            mousePos.x * cosf(angle) - mousePos.y * sinf(angle),
-            mousePos.x * sinf(angle) + mousePos.y * cosf(angle)
+            mousePos.x * cos(angle) - mousePos.y * sin(angle),
+            mousePos.x * sin(angle) + mousePos.y * cos(angle)
         );
 
         return m_gameState.m_cameraPosition + rotatedPos / m_gameState.m_cameraZoom;
