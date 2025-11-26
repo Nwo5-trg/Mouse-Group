@@ -82,7 +82,7 @@ class $modify(GJBaseGameLayerHook, GJBaseGameLayer) {
 
         CCPoint center;
         auto objs = static_cast<CCArray*>(getGroup(fields->followGroupID));
-        if (!objs->count()) return;
+        if (!objs || !objs->count()) return;
 
         auto parent = getGroupParent(fields->followGroupID);
         if (parent && objs->containsObject(parent)) {
