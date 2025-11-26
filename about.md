@@ -27,6 +27,9 @@ everything that isnt the arg + char and its following val is whitespace so ur tx
 ## Rawr
 first time making a logo in photopea hope it turned out just beautiful as always :3
 
+## Soooooo
+i originally wrote this down as a quick note so i could pick up where i left off when i gtg but i left it there and still need to do it and and its funny so it stay :3
+
 // FOR TRIGGER INDICATORS
 
 MAKE EXTRAS APPEAR FOR ALL TRIGGERS
