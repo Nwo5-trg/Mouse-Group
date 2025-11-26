@@ -18,8 +18,6 @@ class $modify(GJBaseGameLayerHook, GJBaseGameLayer) {
         int yItemID;
         int xGameItemID;
         int yGameItemID;
-
-        CCPoint lastMousePos;
     };
 
     TextGameObject* findSettingsObj() {
